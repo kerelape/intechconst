@@ -21,14 +21,14 @@
             <ul>
                 <li>
                     <address class="contact">
-                        <a href="mailto:customer@intechconst.ru">customer@intechconst.ru</a>
+                        <a href="mailto:promts72@mail.ru">promts72@mail.ru</a>
                         <span class="caption">По вопросам сотрудничества</span>
                     </address>
                 </li>
             </ul>
         </section>
         <section class="map">
-            <iframe src="https://maps.google.com/maps?q=%D0%B3.%20%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C,%20%D1%83%D0%BB.%20%D0%91%D0%B0%D1%80%D0%BD%D0%B0%D1%83%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F,%20%D0%B4%D0%BE%D0%BC%2060,%20%D0%BE%D1%84%D0%B8%D1%81%2016&t=&z=13&ie=UTF8&iwloc=&output=embed&hl=ru"></iframe>
+            <iframe title="map" src="https://maps.google.com/maps?q=%D0%B3.%20%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C,%20%D1%83%D0%BB.%20%D0%91%D0%B0%D1%80%D0%BD%D0%B0%D1%83%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F,%20%D0%B4%D0%BE%D0%BC%2060,%20%D0%BE%D1%84%D0%B8%D1%81%2016&t=&z=13&ie=UTF8&iwloc=&output=embed&hl=ru"></iframe>
         </section>
     </div>
 </Container>
