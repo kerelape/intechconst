@@ -6,3 +6,5 @@ export const load: LayoutLoad = async () => {
         routes: Routes
     };
 };
+
+export const prerender = true;
