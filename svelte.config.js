@@ -5,12 +5,18 @@ import preprocess from 'svelte-preprocess';
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
-	preprocess: preprocess(),
+	preprocess: preprocess({
+		typescript: true,
+		postcss: true
+	}),
 
 	kit: {
 		adapter: adapter({
-			precompress: true
-		})
+			pages: "build",
+			assets: "build",
+			fallback: "index.html"
+		}),
+		trailingSlash: "always"
 	}
 };
 
