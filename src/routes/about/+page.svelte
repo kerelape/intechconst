@@ -12,7 +12,8 @@
             };
             setInterval(() => {
                 it.current = (it.current + 1) % slides.length;
-                container.style.translate = `-${it.current * 100}%`;
+                // container.style.translate = `-${it.current * 100}%`;
+                container.setAttribute("style", `transform: translateX(-${it.current * 100}%)`)
             }, 2000);
             for (const slide of slides) {
                 slide.addEventListener("click", () => window.open(slide.getElementsByTagName("img")[0].src))
@@ -229,7 +230,7 @@
             display: flex;
             padding: 0;
             margin: 0;
-            transition: translate 400ms ease-in-out;
+            transition: all 400ms ease-in-out;
 
             li {
                 padding: 0;
