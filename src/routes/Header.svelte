@@ -52,6 +52,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        z-index: 1000;
 
         border-bottom: solid 2px transparent;
         background: $surface;
